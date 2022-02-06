@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+        <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
+        <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+        <PackageReference Include="NSubstitute" Version="4.3.0" />
+        <PackageReference Include="NUnit" Version="3.13.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lative.Discounts.API\Lative.Discounts.API.csproj" />
+      <ProjectReference Include="..\Lative.Discounts.Domain\Lative.Discounts.Domain.csproj" />
+    </ItemGroup>
+</Project>
