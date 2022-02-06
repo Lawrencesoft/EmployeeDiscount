@@ -2,18 +2,18 @@
 Apply Discount for the specified employee based on Type
 
 # Employee Types
-Permanent
-Part-time
-Interns
-Contractors  
+1) Permanent
+2) Part-time
+3) Interns
+4) Contractors  
 
 # The Problem
 A Company is providing its employees with special discounts to use in shops when buying online. The company has the following 4 types of employees: Permanent, Part-time, Interns and Contractors.
-We need a program that applies the correct discount to each employee:
-• Permanent employees get a 10% discount. They also get an extra 5% if they have been in the company for longer than 3 years.
-• Part-time employees get a 5% discount. They also get an extra 3% if they have been in the company for longer than 5 years.
-• Interns get a 5% discount but only on products with a price greater than £30.
-• Unfortunately, Contractors never get a discount.
+We need a program that applies the correct discount to each employee: <br>
+• Permanent employees get a 10% discount. They also get an extra 5% if they have been in the company for longer than 3 years.<br>
+• Part-time employees get a 5% discount. They also get an extra 3% if they have been in the company for longer than 5 years.<br>
+• Interns get a 5% discount but only on products with a price greater than £30.<br>
+• Unfortunately, Contractors never get a discount.<br>
 
 # Required version to build and execute the Employee Discount Repository
   .NET 6.0 version
